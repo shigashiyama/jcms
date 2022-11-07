@@ -35,11 +35,11 @@ The corpus statistics is as follows.
 |ASPEC           |TRA  |Traffic and transportation eng.   |運輸交通工学      | 1,430
 |NTCIR-8 PatentMT|PAT  |Patent                            |特許明細書        | 1,000
 |NTCIR-11 MedNLP2|EMR  |Electronic medical record         |電子カルテ        | 1,362
-|BCCWJ           |LAW  |Law                               |法律              | 1,060
-|BCCWJ           |DIE  |Diet minute                       |国会議事録        |   650
-|BCCWJ           |PRM  |PR magazine                       |広報紙            | 1,238
-|BCCWJ           |TBK  |Textbook                          |教科書            | 1,650
-|BCCWJ           |VRS  |Verse                             |韻文              | 1,000
+|BCCWJ           |LAW  |Law (OL)                          |法律              | 1,060
+|BCCWJ           |DIE  |Diet minute (OM)                  |国会議事録        |   650
+|BCCWJ           |PRM  |PR magazine (OP)                  |広報紙            | 1,238
+|BCCWJ           |TBK  |Textbook (OT)                     |教科書            | 1,650
+|BCCWJ           |VRS  |Verse (OV)                        |韻文              | 1,000
 
 
 ## Data Sources
@@ -83,7 +83,7 @@ collectins.
 ## How to Use
 
 The following steps generate the complete JCMS data from the original text data and 
-masked JCMS data. This required 300MB of disk space, but step 6 deletes 200MB of data.
+masked JCMS data. This requires 300MB of disk space, but step 6 deletes 200MB of data.
 
 1. Create aliases in `data_source`  
    ~~~~
@@ -123,11 +123,17 @@ masked JCMS data. This required 300MB of disk space, but step 6 deletes 200MB of
    rm -r text/tmp/*
    ~~~~
 
+
 ## Contact
 
 Shohei Higashiyama  
 National Institute of Information and Communications Technology (NICT), Seika-cho, Kyoto, Japan  
 shohei.higashiyama [at] nict.go.jp
+
+
+## Acknowledgements
+Part of this work was supported by the collaborative research between NICT and Fujitsu.
+We used the Asian Scientific Paper Excerpt Corpus, NITCIR-9 PatentMT test collection, NTCIR-11 MedNLP-2 test collection, and Balanced Corpus of Contemporary Written Japanese to construct the JCMS.
 
 
 ## Citation
