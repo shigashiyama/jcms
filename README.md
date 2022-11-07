@@ -11,35 +11,35 @@ The corpus adopted two segmentation criteria (and corresponding POS tag sets):
 
 The corpus statistics is as follows.
 
-|Source          |ID   |Domain                            |Domain            |#Sent.
-|----------------|-----|----------------------------------|------------------|-----:
-|ASPEC           |AGR  |Agriculture, forestry, fisheries  |農林水産          |   900
-|ASPEC           |BIO  |Biology                           |生物科学          | 1,000
-|ASPEC           |CHE-B|Basic chemstry                    |基礎化学          | 1,700
-|ASPEC           |CHE-E|Chemical eng.                     |化学工学          |   750
-|ASPEC           |CHE-I|Chemical industry                 |化学工業          |   950
-|ASPEC           |CON  |Construction eng.                 |建設工学          | 1,700
-|ASPEC           |ELC  |Electrical eng.                   |電気工学          | 2,000
-|ASPEC           |ENE  |Energy eng.                       |エネルギー工学    | 1,360
-|ASPEC           |ENV  |Environmental eng.                |環境工学          |   870
-|ASPEC           |ETH  |Earth and space eng.              |地球惑星科学      | 1,000
-|ASPEC           |INF  |Information eng.                  |情報工学          |   900
-|ASPEC           |MAN  |Eng. management                   |経営工学          | 1,500
-|ASPEC           |MEC  |Mechanical eng.                   |機械工学          | 1,750
-|ASPEC           |MED  |Medicine                          |医学              | 1,300
-|ASPEC           |MIN  |Mining eng.                       |鉱山工学          |   640
-|ASPEC           |NUC  |Nuculear eng.                     |原子力工学        |   800
-|ASPEC           |PHY  |Physics                           |物理学            | 1,000
-|ASPEC           |SYS  |System control eng.               |システム・制御工学| 1,500
-|ASPEC           |THM  |Thermal eng.                      |熱工学            | 1,500
-|ASPEC           |TRA  |Traffic and transportation eng.   |運輸交通工学      | 1,430
-|NTCIR-8 PatentMT|PAT  |Patent                            |特許明細書        | 1,000
-|NTCIR-11 MedNLP2|EMR  |Electronic medical record         |電子カルテ        | 1,362
-|BCCWJ           |LAW  |Law (OL)                          |法律              | 1,060
-|BCCWJ           |DIE  |Diet minute (OM)                  |国会議事録        |   650
-|BCCWJ           |PRM  |PR magazine (OP)                  |広報紙            | 1,238
-|BCCWJ           |TBK  |Textbook (OT)                     |教科書            | 1,650
-|BCCWJ           |VRS  |Verse (OV)                        |韻文              | 1,000
+|Source        |ID   |Domain                            |Domain            |#Sent.
+|--------------|-----|----------------------------------|------------------|-----:
+|ASPEC         |AGR  |Agriculture, forestry, fisheries  |農林水産          |   900
+|ASPEC         |BIO  |Biology                           |生物科学          | 1,000
+|ASPEC         |CHE-B|Basic chemstry                    |基礎化学          | 1,700
+|ASPEC         |CHE-E|Chemical eng.                     |化学工学          |   750
+|ASPEC         |CHE-I|Chemical industry                 |化学工業          |   950
+|ASPEC         |CON  |Construction eng.                 |建設工学          | 1,700
+|ASPEC         |ELC  |Electrical eng.                   |電気工学          | 2,000
+|ASPEC         |ENE  |Energy eng.                       |エネルギー工学    | 1,360
+|ASPEC         |ENV  |Environmental eng.                |環境工学          |   870
+|ASPEC         |ETH  |Earth and space eng.              |地球惑星科学      | 1,000
+|ASPEC         |INF  |Information eng.                  |情報工学          |   900
+|ASPEC         |MAN  |Eng. management                   |経営工学          | 1,500
+|ASPEC         |MEC  |Mechanical eng.                   |機械工学          | 1,750
+|ASPEC         |MED  |Medicine                          |医学              | 1,300
+|ASPEC         |MIN  |Mining eng.                       |鉱山工学          |   640
+|ASPEC         |NUC  |Nuculear eng.                     |原子力工学        |   800
+|ASPEC         |PHY  |Physics                           |物理学            | 1,000
+|ASPEC         |SYS  |System control eng.               |システム・制御工学| 1,500
+|ASPEC         |THM  |Thermal eng.                      |熱工学            | 1,500
+|ASPEC         |TRA  |Traffic and transportation eng.   |運輸交通工学      | 1,430
+|NTCIR PatentMT|PAT  |Patent                            |特許明細書        | 1,000
+|NTCIR MedNLP2 |EMR  |Electronic medical record         |電子カルテ        | 1,362
+|BCCWJ         |LAW  |Law (OL)                          |法律              | 1,060
+|BCCWJ         |DIE  |Diet minute (OM)                  |国会議事録        |   650
+|BCCWJ         |PRM  |PR magazine (OP)                  |広報紙            | 1,238
+|BCCWJ         |TBK  |Textbook (OT)                     |教科書            | 1,650
+|BCCWJ         |VRS  |Verse (OV)                        |韻文              | 1,000
 
 
 ## Data Sources
